@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MK BlOOD BANK APP</string>
+    <string name="no_account"><u> Do not have an Account?</u></string>
+    <string name="title_activity_donor_map">Map</string>
+    <string name="title_activity_recipient_map">Map</string>
+
+    <string name="donor"><u>As a Donor</u></string>
+    <string name="recipient"><u>As a Recipient</u></string>
+</resources>

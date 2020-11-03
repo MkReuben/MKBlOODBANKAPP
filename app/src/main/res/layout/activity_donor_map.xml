@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/Black"
+    tools:context=".Donors.DonorMapActivity"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="63dp"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginRight="-1dp"
+            android:layout_marginBottom="6dp"
+            />
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/donors_logout_btn"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="13dp"
+        android:textStyle="bold"
+        android:background="@color/Black"
+        android:textColor="@color/White"
+        android:text="Logout" />
+
+<!--    <Button-->
+<!--        android:id="@+id/donors_settings_btn"-->
+<!--        android:layout_width="190dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="13dp"-->
+<!--        android:layout_marginLeft="13dp"-->
+<!--        android:layout_marginTop="13dp"-->
+<!--        android:textColor="@color/White"-->
+<!--        android:background="@color/colorPrimary"-->
+<!--        android:text="Settings" />-->
+
+</RelativeLayout>
+
